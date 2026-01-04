@@ -253,6 +253,7 @@ export interface SwapParams extends BaseParams {
     computeUnitPrice?: string;
     computeUnitLimit?: string;
     callDataMemo?: string;
+    disableRFQ?: boolean;
 }
 
 export interface SwapSimulationParams {
